@@ -12,6 +12,8 @@ using std::vector;
 using std::unique_ptr;
 using std::make_unique;
 
+// Test
+
 vector<unique_ptr<Player> > loadPlayers(string filename) {
   vector<unique_ptr<Player> > players;
   if(filename.empty()) {
